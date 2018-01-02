@@ -876,7 +876,7 @@ A comma-separated list of IDs.
 
 ```php
 $params = [
-   'ids' => [2, 4, 11]
+   'ids' => "2, 4, 11"
 ];
 
 $articles = $client->getItems('articles', $params);
